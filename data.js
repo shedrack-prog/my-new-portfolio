@@ -73,7 +73,7 @@ export const projectsData = [
       { img: javascript },
       { img: css3 },
     ],
-    link: 'https://github.com/shedrack-prog/Netflix-frontend',
+    link: 'https://netflix-clone-49lf.onrender.com',
     github: 'https://github.com/shedrack-prog/Netflix-frontend',
   },
 ];
