@@ -25,6 +25,7 @@ export default function Services() {
       >
         {servicesData.map((item, i) => (
           <div
+            key={i}
             className="flex flex-col  max-w-[300px]
           bg-[#242424]  justify-center rounded-md mt-5 px-3 py-3"
           >

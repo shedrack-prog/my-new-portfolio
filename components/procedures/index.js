@@ -13,8 +13,11 @@ export default function Procedure() {
         </h1>
       </div>
       <div className="mt-[4rem] px-5 p-3 flex gap-10 flex-wrap items-center justify-center">
-        {procedureData.map((item) => (
-          <div className="md:max-w-[300px] max-w-[300px] flex flex-col justify-center">
+        {procedureData.map((item, i) => (
+          <div
+            key={i}
+            className="md:max-w-[300px] max-w-[300px] flex flex-col justify-center"
+          >
             <h1 className="text-[3.5rem] md:text-[3.6rem] font-bold text-purple-700">
               {item.num}
             </h1>

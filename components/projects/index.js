@@ -18,8 +18,9 @@ const Project = () => {
         </h1>
       </div>
       <div className="flex flex-wrap items-center mt-[4rem] gap-6 md:gap-8 px-6 justify-center">
-        {projectsData.map((item) => (
+        {projectsData.map((item, i) => (
           <div
+            key={i}
             className=" flex flex-col items-center bg-[#242424] md:max-w-[350px]
           rounded-md px-2 md:px-4"
           >
@@ -33,8 +34,9 @@ const Project = () => {
               <p className="mb-3 md:text-sm text-sm">{item.text}</p>
               <div className="flex gap-3 mt-6">
                 <span className="text-xl">Stack: </span>
-                {item.stacks.map((stack) => (
+                {item.stacks.map((stack, i) => (
                   <Image
+                    key={i}
                     src={stack.img}
                     alt=""
                     className="w-[33px] h-[33px] rounded-full object-cover"
