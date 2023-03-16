@@ -63,9 +63,9 @@ const Hero = () => {
             Get Started
           </a>
           <a
+            href="https://drive.google.com/file/d/1lJ2GrHiNtwqij1J4jLWQwZMJVfEBSk4y/view"
             className="py-1 text-center px-4 w-52 rounded-md border border-purple-500
           hover:border-purple-700 hover:bg-purple-700"
-            type="button"
           >
             Resume
           </a>

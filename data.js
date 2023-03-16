@@ -1,6 +1,7 @@
 import jobify from './public/projectsImages/jobify02.jpg';
 import Facebook from './public/projectsImages/fb-clone2.jpg';
 import Netflix from './public/projectsImages/netflix1.jpg';
+import Shoppay from './public/projectsImages/shoppay4.jpg';
 
 import css3 from './public/projectsImages/css-logo.png';
 import express from './public/projectsImages/express-logo.png';
@@ -28,11 +29,11 @@ import css from 'styled-jsx/css';
 export const projectsData = [
   {
     name: 'ECommerce Website',
-    text: 'An advanced e-commerce website that allow user to choose from various products. it is built with Next.js and data served from MongoDb. Users can login with 0Auth like Github, Google, Facebook, etc. and At the same time can create an account with  name, email and passwords. Users can select a product and add to cart even if the are not logged in, from the cart they can select the products to checkout. Fill in their the address and either pay with paypal, Stripe of Pay on Delivery. Also with an Admin Dashboard....You Can check it out. ',
-    img: jobify,
+    text: 'An advanced e-commerce website that allow user to choose from various products. it is built with Next.js and data served from MongoDb. Users can login with 0Auth like Github, Google, Facebook, etc. and At the same time can create an account with  name, email and passwords. Users can select a product and add to cart even if they are not logged in, from the cart they can select the products to checkout. Fill in their the address and either pay with paypal, Stripe or Pay on Delivery. Also with an Admin Dashboard....You Can check it out. ',
+    img: Shoppay,
     stacks: [{ img: next }, { img: node }, { img: javascript }, { img: css3 }],
-    link: '',
-    github: '',
+    link: 'https://shoppay-ecommerce.vercel.app/',
+    github: 'https://github.com/shedrack-prog/Shoppay',
   },
   {
     name: 'Jobify',
