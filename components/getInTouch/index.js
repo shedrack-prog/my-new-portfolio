@@ -5,7 +5,10 @@ import Link from 'next/link';
 
 export default function GetInTouch() {
   return (
-    <div className="flex flex-col gap-[3.2rem] items-center justify-center md:mt-[6rem] mt-[4rem]">
+    <div
+      id="contact"
+      className="flex flex-col gap-[3.2rem] items-center justify-center md:mt-[6rem] mt-[4rem]"
+    >
       <div className="mt-[1rem]">
         <h1 className="text-4xl text-white">
           Lets get{' '}

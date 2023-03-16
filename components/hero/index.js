@@ -2,7 +2,10 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="mt-[3rem] flex items-center justify-center mx-auto sm:px-[3rem] md:px-[6rem] px-6">
+    <div
+      id="home"
+      className="mt-[3rem] flex items-center justify-center mx-auto sm:px-[3rem] md:px-[6rem] px-6"
+    >
       <div className="text-white grid place-items-center">
         <div
           className="bg-gradient-to-r bg-clip-border text-center from-purple-600
@@ -53,6 +56,7 @@ const Hero = () => {
         </p>
         <div className="flex flex-col md:flex-row items-center mt-8 gap-4 sm:mt-8">
           <a
+            href="#about"
             className="px-4 text-center text-white  bg-purple-600
           hover:bg-purple-700 py-1.5 rounded-md w-48"
           >
@@ -67,6 +71,25 @@ const Hero = () => {
           </a>
         </div>
       </div>
+      <a
+        href="#top"
+        className="fixed z-50 right-2 bottom-2 md:bottom-[3rem] md:right-[3rem] "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          className="w-[40px]"
+        >
+          <path
+            fill="#841dc9"
+            stroke="#841dc9"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5H3.75Z"
+          />
+        </svg>
+      </a>
     </div>
   );
 };

@@ -14,7 +14,10 @@ import Image from 'next/image';
 
 const MyStory = () => {
   return (
-    <div className="text-white text-center mt-[4rem] md:px-[3rem] px-[2rem]">
+    <div
+      id="about"
+      className="text-white text-center mt-[4rem] md:px-[3rem] px-[2rem]"
+    >
       <div>
         <h1 className="text-4xl text-white">
           My{' '}

@@ -6,7 +6,10 @@ import { BiTestTube } from 'react-icons/bi';
 
 export default function Services() {
   return (
-    <div className="flex mt-[3rem] md:mt-[5rem] flex-col lg:px-[6rem] items-center justify-center">
+    <div
+      id="services"
+      className="flex mt-[3rem] md:mt-[5rem] flex-col lg:px-[6rem] items-center justify-center"
+    >
       <div className="">
         <h1 className="text-4xl mb-4 text-white">
           Services I{' '}

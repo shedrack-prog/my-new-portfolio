@@ -6,6 +6,7 @@ import { BsArrowRightShort } from 'react-icons/bs';
 const Project = () => {
   return (
     <div
+      id="projects"
       className="text-white mt-[8rem] px-[4rem] flex flex-col
      justify-center justify-self-center"
     >

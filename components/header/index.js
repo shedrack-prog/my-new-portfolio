@@ -10,7 +10,10 @@ import { useState } from 'react';
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="flex items-center bg-black h-[60px] px-4 border-gray-700 border-b-[1px]">
+    <div
+      id="top"
+      className="flex items-center bg-black h-[60px] px-4 border-gray-700 border-b-[1px]"
+    >
       <div className="flex justify-between items-center text-white w-full">
         <div className="text-white flex items-center">
           <svg
@@ -57,9 +60,9 @@ const Header = () => {
                 <path
                   fill="none"
                   stroke="#841dc9"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
                   d="m3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75L12 13.5H3.75Z"
                 />
               </svg>
@@ -73,20 +76,45 @@ const Header = () => {
             />
           </div>
           <ul className="mt-[2rem] flex flex-col px-4 gap-5">
-            <li className="text-[20px] text-gray-400 ">
-              <Link href="home">Home</Link>
+            <li
+              className="text-[20px] text-gray-400 "
+              onClick={() => {
+                setOpen((prev) => !prev);
+              }}
+            >
+              <a href="#home">Home</a>
             </li>
-            <li className="text-[20px] text-gray-400 ">
-              <Link href="about">About</Link>
+            <li
+              className="text-[20px] text-gray-400 "
+              onClick={() => {
+                setOpen((prev) => !prev);
+              }}
+            >
+              <a href="#about">About</a>
             </li>
-            <li className="text-[20px] text-gray-400 ">
-              <Link href="projects">Projects</Link>
+            <li
+              className="text-[20px] text-gray-400 "
+              onClick={() => {
+                setOpen((prev) => !prev);
+              }}
+            >
+              <a href="#projects">Projects</a>
             </li>
-            <li className="text-[20px] text-gray-400 ">
-              <Link href="services">Services</Link>
+            <li
+              className="text-[20px] text-gray-400 "
+              onClick={() => {
+                setOpen((prev) => !prev);
+              }}
+            >
+              <a href="#services">Services</a>
             </li>
-            <li className="text-[20px] text-gray-400 ">
-              <Link href="contact">Contact</Link>
+            <li
+              className="text-[20px] text-gray-400 "
+              onClick={() => {
+                setOpen((prev) => !prev);
+              }}
+            >
+              <a href="#contact">Contact</a>
             </li>
           </ul>
 
@@ -103,19 +131,19 @@ const Header = () => {
         </div>
         <div className="hidden md:flex gap-6 items-center justify-center">
           <div className="flex text-gray-300 gap-4 items-center justify-center">
-            <a href="#" className="hover:text-gray-400">
+            <a href="#home" className="hover:text-gray-400">
               Home
             </a>
-            <a href="#" className="hover:text-gray-400">
+            <a href="#about" className="hover:text-gray-400">
               About
             </a>
-            <a href="#" className="hover:text-gray-400">
+            <a href="#projects" className="hover:text-gray-400">
               Projects
             </a>
-            <a href="#" className="hover:text-gray-400">
+            <a href="#services" className="hover:text-gray-400">
               Services
             </a>
-            <a href="#" className="hover:text-gray-400">
+            <a href="#contact" className="hover:text-gray-400">
               Contact
             </a>
           </div>
