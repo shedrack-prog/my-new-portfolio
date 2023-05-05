@@ -148,16 +148,16 @@ const Header = () => {
             </a>
           </div>
           <div className="flex items-center justify-center gap-3">
-            <a href="#">
+            <a href="https://www.twitter.com/shedrackcoding">
               <CiTwitter size={22} />
             </a>
-            <a href="#">
+            <a href="https://www.github.com/shedrack-prog">
               <AiFillGithub size={22} />
             </a>
-            <a href="#">
+            <a href="mailto:usheddy07@gmail.com">
               <SiGmail size={20} />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/akinrefon-tobiloba-497410236/">
               <CiLinkedin size={23} />
             </a>
           </div>
