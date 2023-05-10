@@ -2,6 +2,7 @@ import jobify from './public/projectsImages/jobify02.jpg';
 import Facebook from './public/projectsImages/fb-clone2.jpg';
 import Netflix from './public/projectsImages/netflix1.jpg';
 import Shoppay from './public/projectsImages/shoppay4.jpg';
+import Promptopia from './public/projectsImages/prompt1.jpg';
 
 import css3 from './public/projectsImages/css-logo.png';
 import express from './public/projectsImages/express-logo.png';
@@ -34,6 +35,14 @@ export const projectsData = [
     stacks: [{ img: next }, { img: node }, { img: javascript }, { img: css3 }],
     link: 'https://shoppay-ecommerce.vercel.app/',
     github: 'https://github.com/shedrack-prog/Shoppay',
+  },
+  {
+    name: 'Promptopia',
+    text: 'Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts. Promptopia was built with NextJs(React Framework)',
+    img: Promptopia,
+    stacks: [{ img: next }, { img: node }, { img: javascript }, { img: css3 }],
+    link: 'https://promptopia-green.vercel.app/',
+    github: 'https://github.com/shedrack-prog/Promptopia',
   },
   {
     name: 'Jobify',
