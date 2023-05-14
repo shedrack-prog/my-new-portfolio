@@ -75,7 +75,7 @@ export const projectsData = [
   },
   {
     name: 'Sumz- An AI article summarizer',
-    text: 'Another AI-powered Application that helps summarize an article that simplify your reading. an open-source article summarizer that transforms lengthy articles into clear and concise summaries.',
+    text: 'An AI-powered Application that helps summarize an article that simplify your reading. an open-source article summarizer that transforms lengthy articles into clear and concise summaries.',
     img: Sumz,
     stacks: [
       { img: react },
