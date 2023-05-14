@@ -3,6 +3,7 @@ import Facebook from './public/projectsImages/fb-clone2.jpg';
 import Netflix from './public/projectsImages/netflix1.jpg';
 import Shoppay from './public/projectsImages/shoppay4.jpg';
 import Promptopia from './public/projectsImages/prompt1.jpg';
+import Sumz from './public/projectsImages/sumz2.jpg';
 
 import css3 from './public/projectsImages/css-logo.png';
 import express from './public/projectsImages/express-logo.png';
@@ -71,6 +72,20 @@ export const projectsData = [
     ],
     link: 'https://facebook-clone-fullstack.onrender.com',
     github: 'https://github.com/shedrack-prog/Facebook-clone-frontend',
+  },
+  {
+    name: 'Sumz- An AI article summarizer',
+    text: 'Another AI-powered Application that helps summarize an article that simplify your reading. an open-source article summarizer that transforms lengthy articles into clear and concise summaries.',
+    img: Sumz,
+    stacks: [
+      { img: react },
+      { img: node },
+      { img: mongoDb },
+      { img: javascript },
+      { img: css3 },
+    ],
+    link: 'https://sumz-openai-article-summarizer.netlify.app/',
+    github: 'https://github.com/shedrack-prog/Sumz',
   },
   {
     name: 'Netflix Clone',

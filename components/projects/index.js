@@ -23,7 +23,7 @@ const Project = () => {
           <div
             key={i}
             className=" flex flex-col items-center bg-[#242424] md:max-w-[350px]
-          rounded-md px-2 md:px-4"
+          rounded-md px-2 md:px-4 min-h-[620px]"
           >
             <div className=" mt-6 mb-4">
               <Image src={item.img} alt="" />
@@ -44,7 +44,7 @@ const Project = () => {
                   />
                 ))}
               </div>
-              <div className="flex items-center justify-center gap-4 mt-4">
+              <div className="flex items-center justify-center gap-4 mt-4 ">
                 <span
                   className="flex items-center justify-center gap-3 bg-[#313131] rounded-md px-5 py-3
                  md:py-2 md:px-2"
