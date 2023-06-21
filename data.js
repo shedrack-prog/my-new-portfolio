@@ -13,7 +13,7 @@ import mongoDb from './public/projectsImages/mongo-logo.jpg';
 import next from './public/projectsImages/next-logo.png';
 import node from './public/projectsImages/node-logo.png';
 import react from './public/projectsImages/react-logo.jpg';
-import tailwindcss from './public/projectsImages/tailwindcss';
+import tailwindcss from './public/projectsImages/tailwindcss.png';
 
 // socials=---------------------------
 import gmail from './public/projectsImages/Gmail-logo.png';
