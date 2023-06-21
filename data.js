@@ -4,6 +4,7 @@ import Netflix from './public/projectsImages/netflix1.jpg';
 import Shoppay from './public/projectsImages/shoppay4.jpg';
 import Promptopia from './public/projectsImages/prompt1.jpg';
 import Sumz from './public/projectsImages/sumz2.jpg';
+import Shoppy from './public/projectsImages/shoppy.jpg';
 
 import css3 from './public/projectsImages/css-logo.png';
 import express from './public/projectsImages/express-logo.png';
@@ -12,6 +13,7 @@ import mongoDb from './public/projectsImages/mongo-logo.jpg';
 import next from './public/projectsImages/next-logo.png';
 import node from './public/projectsImages/node-logo.png';
 import react from './public/projectsImages/react-logo.jpg';
+import tailwindcss from './public/projectsImages/tailwindcss';
 
 // socials=---------------------------
 import gmail from './public/projectsImages/Gmail-logo.png';
@@ -38,10 +40,29 @@ export const projectsData = [
     github: 'https://github.com/shedrack-prog/Shoppay',
   },
   {
+    name: 'Shoppy-Admin Dashboard and Apps',
+    text: 'A Beautiful Admin dashboard created with React js and syncfussion components. includes other useful apps like Calendar, Color-Picker, Editor, Kanban. Website include all core components of an ecommerce Admin dashboard.',
+    img: Shoppy,
+    stacks: [
+      { img: react },
+      { img: tailwindcss },
+      { img: javascript },
+      { img: css3 },
+    ],
+    link: 'https://shoppy-admin-dashboard-nine.vercel.app/',
+    github: 'https://github.com/shedrack-prog/Shoppy-Admin-Dashboard',
+  },
+
+  {
     name: 'Promptopia',
     text: 'Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts. Promptopia was built with NextJs(React Framework)',
     img: Promptopia,
-    stacks: [{ img: next }, { img: node }, { img: javascript }, { img: css3 }],
+    stacks: [
+      { img: next },
+      { img: node },
+      { img: javascript },
+      { img: tailwindcss },
+    ],
     link: 'https://promptopia-green.vercel.app/',
     github: 'https://github.com/shedrack-prog/Promptopia',
   },
