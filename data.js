@@ -133,7 +133,7 @@ export const projectsData = [
       { img: node },
       { img: mongoDb },
     ],
-    link: 'https://facebook-clone-fullstack.onrender.com',
+    link: 'https://facebook-clone-frontend-new.vercel.app/',
     github: 'https://github.com/shedrack-prog/Facebook-clone-frontend',
   },
   {
