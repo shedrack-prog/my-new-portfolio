@@ -14,6 +14,9 @@ import next from './public/projectsImages/next-logo.png';
 import node from './public/projectsImages/node-logo.png';
 import react from './public/projectsImages/react-logo.jpg';
 import tailwindcss from './public/projectsImages/tailwindcss.png';
+import Meddstore from './public/projectsImages/meddstore-2.jpg';
+import MeddstoreDashboard from './public/projectsImages/dashboard1.jpg';
+import MernBlog from './public/projectsImages/mernBlog.jpg';
 
 // socials=---------------------------
 import gmail from './public/projectsImages/Gmail-logo.png';
@@ -31,6 +34,45 @@ import { GrTest } from 'react-icons/gr';
 import css from 'styled-jsx/css';
 
 export const projectsData = [
+  {
+    name: 'Meddstore- ecommerce website',
+    text: 'An ecommerce store that displays lists of products in a beautiful UI. allows users to choose from variety of items and complete straight to checkout  or add to cart, and pay with stripe. also has an admin dashboard.',
+    img: Meddstore,
+    stacks: [
+      { img: next },
+      { img: node },
+      { img: javascript },
+      { img: tailwindcss },
+    ],
+    link: 'https://meddstore.vercel.app',
+    github: 'https://github.com/shedrack-prog/Meddstore-frontend',
+  },
+  {
+    name: 'Meddstore-Ecommerce Admin Dashboard',
+    text: 'An ecommerce Admin Dashboard with real data in place connected to a frontend store for managing stores for the frontend. Also can be use for other stores not just one frontend store.',
+    img: MeddstoreDashboard,
+    stacks: [
+      { img: next },
+      { img: node },
+      { img: javascript },
+      { img: tailwindcss },
+    ],
+    link: 'https://meddstore-admin-database.vercel.app/',
+    github: 'https://github.com/shedrack-prog/Meddstore-Admin',
+  },
+  {
+    name: 'MERN BLOG',
+    text: 'Blog website built with MERN stacks. completed and includes all features like signing-up, creating post, editing post, and deleting user only created posts.',
+    img: MernBlog,
+    stacks: [
+      { img: react },
+      { img: node },
+      { img: javascript },
+      { img: tailwindcss },
+    ],
+    link: 'https://mern-blog-frontend-eosin.vercel.app/',
+    github: 'https://github.com/shedrack-prog/MERN-BLOG-frontend',
+  },
   {
     name: 'ECommerce Website',
     text: 'An advanced e-commerce website that allow user to choose from various products. it is built with Next.js and data served from MongoDb. Users can login with 0Auth like Github, Google, Facebook, etc. and At the same time can create an account with  name, email and passwords. Users can select a product and add to cart even if they are not logged in, from the cart they can select the products to checkout. Fill in their the address and either pay with paypal, Stripe or Pay on Delivery. Also with an Admin Dashboard....You Can check it out. ',
