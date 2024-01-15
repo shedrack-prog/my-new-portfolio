@@ -5,6 +5,7 @@ import Shoppay from './public/projectsImages/shoppay4.jpg';
 import Promptopia from './public/projectsImages/prompt1.jpg';
 import Sumz from './public/projectsImages/sumz2.jpg';
 import Shoppy from './public/projectsImages/shoppy.jpg';
+import LmsApp from './public/projectsImages/lms_app.png';
 
 import css3 from './public/projectsImages/css-logo.png';
 import express from './public/projectsImages/express-logo.png';
@@ -17,6 +18,7 @@ import tailwindcss from './public/projectsImages/tailwindcss.png';
 import Meddstore from './public/projectsImages/meddstore-2.jpg';
 import MeddstoreDashboard from './public/projectsImages/dashboard1.jpg';
 import MernBlog from './public/projectsImages/mernBlog.jpg';
+import TypescriptLogo from './public/projectsImages/typescript.png';
 
 // socials=---------------------------
 import gmail from './public/projectsImages/Gmail-logo.png';
@@ -46,6 +48,19 @@ export const projectsData = [
     ],
     link: 'https://meddstore.vercel.app',
     github: 'https://github.com/shedrack-prog/Meddstore-frontend',
+  },
+  {
+    name: 'Learning Management System',
+    text: 'A Learning Management System for students to browse through courses and purchase courses of their choices, payment with stripe. also has an admin dashboard for course creation and statistics of course sales and revenue.',
+    img: LmsApp,
+    stacks: [
+      { img: next },
+      { img: node },
+      { img: TypescriptLogo },
+      { img: tailwindcss },
+    ],
+    link: 'https://lms-app-eight.vercel.app/search  ',
+    github: 'https://github.com/shedrack-prog/LMS-App',
   },
   {
     name: 'Meddstore-Ecommerce Admin Dashboard',
