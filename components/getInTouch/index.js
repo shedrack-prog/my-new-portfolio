@@ -44,7 +44,7 @@ export default function GetInTouch() {
         <span className="bg-gradient-to-r animate-pulse bg-clip-text from-purple-400 via-sky-300 to-purple-600 background-animate text-transparent">
           Shedrach Tobiloba{' '}
         </span>{' '}
-        ✨. All rights reserved @ 2023
+        ✨. All rights reserved @ 2024
       </div>
     </div>
   );
