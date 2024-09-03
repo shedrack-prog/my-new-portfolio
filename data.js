@@ -6,6 +6,8 @@ import Promptopia from './public/projectsImages/prompt1.jpg';
 import Sumz from './public/projectsImages/sumz2.jpg';
 import Shoppy from './public/projectsImages/shoppy.jpg';
 import LmsApp from './public/projectsImages/lms_app.png';
+import ShaggyPizza from './public/projectsImages/shaggy_pizza.png';
+import Discord from './public/projectsImages/discord.png';
 
 import css3 from './public/projectsImages/css-logo.png';
 import express from './public/projectsImages/express-logo.png';
@@ -69,11 +71,37 @@ export const projectsData = [
     stacks: [
       { img: next },
       { img: node },
-      { img: javascript },
+      { img: TypescriptLogo },
       { img: tailwindcss },
     ],
     link: 'https://meddstore-admin-database.vercel.app/',
     github: 'https://github.com/shedrack-prog/Meddstore-Admin',
+  },
+  {
+    name: 'Shaggy Pizza',
+    text: 'A pizza website for customers to select from variety of Pizza and customize it to their needs. payment methods are available for customers with Stripe.',
+    stacks: [
+      { img: next },
+      { img: node },
+      { img: javascript },
+      { img: tailwindcss },
+    ],
+    img: ShaggyPizza,
+    github: 'https://github.com/shedrack-prog/shaggy-pizza-client',
+    link: 'https://shaggy-pizzas.vercel.app/',
+  },
+  {
+    name: 'Discord Clone',
+    text: 'Feature rich cloning of discord with features to create a server, join a server, Go live , invite members to your severs also with admin and Moderator Role for server security.',
+    stacks: [
+      { img: next },
+      { img: node },
+      { img: TypescriptLogo },
+      { img: tailwindcss },
+    ],
+    img: Discord,
+    link: 'https://discord-clone-production-404e.up.railway.app/',
+    github: 'https://github.com/shedrack-prog/Discord-clone',
   },
   {
     name: 'MERN BLOG',
