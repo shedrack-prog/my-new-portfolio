@@ -204,7 +204,7 @@ export const projectsData = [
       { img: javascript },
       { img: css3 },
     ],
-    link: 'https://netflix-clone-49lf.onrender.com',
+    link: 'https://mern-stack-jobify-frontend.vercel.app/',
     github: 'https://github.com/shedrack-prog/Netflix-frontend',
   },
 ];
