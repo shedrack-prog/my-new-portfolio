@@ -162,7 +162,7 @@ export const projectsData = [
       { img: node },
       { img: mongoDb },
     ],
-    link: 'https://jobify-clone-nws4.onrender.com',
+    link: 'https://facebook-clone-frontend-new.vercel.app/',
     github: 'https://github.com/shedrack-prog/mern-stack-jobify-frontend',
   },
   {
@@ -176,7 +176,7 @@ export const projectsData = [
       { img: node },
       { img: mongoDb },
     ],
-    link: 'https://facebook-clone-frontend-new.vercel.app/',
+    link: 'https://netflix-clone-by-shedrack.vercel.app/auth',
     github: 'https://github.com/shedrack-prog/Facebook-clone-frontend',
   },
   {
